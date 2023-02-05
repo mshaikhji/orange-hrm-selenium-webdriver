@@ -17,7 +17,7 @@ I've included:
 
 
 ## Setup
-![alt text](https://drive.google.com/file/d/1v9WOO24mfMhKkt-8mQZD45KfrI7Ae8-1/view?usp=sharing)
+![image](https://drive.google.com/uc?export=view&id=1v9WOO24mfMhKkt-8mQZD45KfrI7Ae8-1) 
 - You might need to add `screenshot` and `reports` folder in the main project directory as shown in the image above.
 - clone this repo to a local directory
 git clone https://github.com/mshaikhji/orange-hrm-selenium-webdriver.git
