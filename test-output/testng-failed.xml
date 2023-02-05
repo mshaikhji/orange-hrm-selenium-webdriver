@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amity Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browserName" value="chrome"/>
+  <listeners>
+    <listener class-name="utils.SuiteListner"/>
+  </listeners>
+  <test name="Test Automation">
+    <parameter name="browserName" value="chrome"/>
+    <packages>
+      <package name="testCases"/>
+    </packages>
+    <classes>
+      <class name="testCases.VerifyUserCanAddPayGrades"/>
+      <class name="testCases.SearchWithPartialText"/>
+      <class name="testCases.BaseTest"/>
+    </classes>
+  </test> <!-- Test Automation -->
+  <test name="Test Automation(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="testCases.VerifyUserCanAddPayGrades">
+        <methods>
+          <include name="addPayGradeFlow"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testCases.VerifyUserCanAddPayGrades -->
+      <class name="testCases.SearchWithPartialText">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testCases.SearchWithPartialText -->
+    </classes>
+  </test> <!-- Test Automation(failed) -->
+</suite> <!-- Failed suite [Amity Test Suite] -->
