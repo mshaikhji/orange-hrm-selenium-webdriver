@@ -6,7 +6,7 @@
 .settings/
 .classpath
 .project
-
+.metadata
 
 # Created by https://www.gitignore.io/api/macos,java,windows,intellij,intellij+iml,maven
 
@@ -56,10 +56,6 @@ $RECYCLE.BIN/
 *.lnk
 
 
-### Intellij ###
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
-# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
-
 # User-specific stuff:
 .idea/workspace.xml
 .idea/tasks.xml
@@ -85,14 +81,8 @@ $RECYCLE.BIN/
 
 ## Plugin-specific files:
 
-# IntelliJ
-/out/
-
 # mpeltonen/sbt-idea plugin
 .idea_modules/
-
-# JIRA plugin
-atlassian-ide-plugin.xml
 
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
@@ -109,23 +99,10 @@ fabric.properties
 # *.ipr
 
 
-### Intellij+iml ###
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
-# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
-
 # User-specific stuff:
 
 # Sensitive or high-churn files:
 
-# Gradle:
-
-# Mongo Explorer plugin:
-
-## File-based project format:
-
-## Plugin-specific files:
-
-# IntelliJ
 
 # mpeltonen/sbt-idea plugin
 
@@ -133,8 +110,7 @@ fabric.properties
 
 # Crashlytics plugin (for Android Studio and IntelliJ)
 
-### Intellij+iml Patch ###
-# Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-249601023
+
 
 *.iml
 modules.xml
@@ -163,8 +139,6 @@ buildNumber.properties
 # BlueJ files
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
 
 # Package Files #
 *.jar
