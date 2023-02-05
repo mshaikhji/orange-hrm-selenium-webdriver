@@ -17,9 +17,10 @@ I've included:
 
 
 ## Setup
+![alt text](https://drive.google.com/file/d/1v9WOO24mfMhKkt-8mQZD45KfrI7Ae8-1/view?usp=sharing)
+- You might need to add `screenshot` and `reports` folder in the main project directory as shown in the image above.
 - clone this repo to a local directory
 git clone https://github.com/mshaikhji/orange-hrm-selenium-webdriver.git
-
 - Open Eclipse and select File from top menu bar.
 - Select `Open Projects From File System`.
 - Once dependencies are installed, click on `Help` in top menu bar.
@@ -28,11 +29,10 @@ git clone https://github.com/mshaikhji/orange-hrm-selenium-webdriver.git
 - Enter url from https://github.com/cbeust/testng-eclipse > LATEST RELEASE > https://testng.org/testng-eclipse-update-site/6.9.11 (Or any other version if this is not available).
 - Click Finish.
 
-
 ## Run Tests
 - Open testng.xml
 - Right click > Run As > Configuration.
-- Select TestNG > Select Project as testCases (If not already selected).
+- Select TestNG > Select Project as `yourProjectName` (If not already selected).
 - Select `Suite` and give the correct path.
 - Click Run
 
