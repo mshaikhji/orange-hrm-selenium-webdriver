@@ -17,7 +17,6 @@ I've included:
 
 
 ## Setup
-```
 ## clone this repo to a local directory
 git clone https://github.com/mshaikhji/brikl-demo.git
 
@@ -28,7 +27,7 @@ git clone https://github.com/mshaikhji/brikl-demo.git
 - Enter any name (example: TestNG).
 - Enter url from https://github.com/cbeust/testng-eclipse > LATEST RELEASE > https://testng.org/testng-eclipse-update-site/6.9.11 (Or any other version if this is not available).
 - Click Finish.
-```
+
 
 ## Run Tests
 - Open testng.xml
