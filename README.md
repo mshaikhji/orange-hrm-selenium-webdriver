@@ -1,4 +1,4 @@
-# orange HRM selenium webdriver
+# Orange HRM selenium webdriver
 A demo project using the automation tool, Selenium Webdriver. These tests are intended to provide examples of my understanding of Selenium Webdriver and to display my coding skill.
 I've included:
 
@@ -17,8 +17,8 @@ I've included:
 
 
 ## Setup
-## clone this repo to a local directory
-git clone https://github.com/mshaikhji/brikl-demo.git
+- clone this repo to a local directory
+git clone https://github.com/mshaikhji/orange-hrm-selenium-webdriver.git
 
 - Open Eclipse and select File from top menu bar.
 - Select `Open Projects From File System`.
@@ -39,7 +39,7 @@ git clone https://github.com/mshaikhji/brikl-demo.git
 ## TroubleShooting
 - If reports are not displayed, please refresh the project.
 - If use see `An internal error occurred during: "Launching...` when you run the test:
-## Go to 
+ > Go to 
 - Help
 - Install new software...
 - What is already installed?
